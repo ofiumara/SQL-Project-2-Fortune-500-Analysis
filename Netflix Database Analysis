@@ -1,0 +1,8 @@
+SELECT title, release_year
+FROM "netflix_titles_info"
+WHERE type='Movie'
+ORDER BY release_year asc
+LIMIT 1;
+Query #1 Execution time: 1.4ms
+title	release_year
+Sankofa	1993
